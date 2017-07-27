@@ -1,0 +1,53 @@
+# ===========================================
+# Site Settings
+# ===========================================
+# Header
+site_title: Jingwei's Blog
+site_description: 专注于 Android 开发. Android 创造一切!
+# ---Optional ---
+site_avatar: /images/avatar.jpg
+artical_license_statement: 本文由 http://jingweiwang.pub/ 原创编写，转载请尽量保留版权网址，感谢您的理解与分享!
+# ---End Optional ---
+menu:
+  Home: /
+  Archives: /archives
+  AboutMe: /about
+# display widgets
+widgets:
+- tagcloud
+- recent_posts
+- archives
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+# Content
+excerpt_link: Read More
+# favico 
+favicon:
+
+# ===========================================
+# Miscellaneous Settings
+# ===========================================
+# Baidu Analytics
+baidu_analytics: 
+# Google Analytics
+google_analytics: 
+# Disqus
+disqus:
+  enable: false
+  shortname: 
+  count: 
+# changyan
+changyan:
+  enable: false
+  appid:
+  appkey:
+# duoshuo
+duoshuo:
+  enable: false
+  shortname: 
+# Visitors
+leancloud_visitors:
+  enable: true
+  app_id: rMdNOUYXpygJcdh6KHoHaqy3-gzGzoHsz
+  app_key: 6nIW6JDtf24w3sXvLqIB9EBn

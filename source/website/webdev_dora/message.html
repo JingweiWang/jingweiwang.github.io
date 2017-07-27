@@ -1,0 +1,123 @@
+<!DOCDYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Jingwei_Wang" />
+		<meta name="description" content="《网站开发技术及应用》期末作品" />
+		<meta name="keywords" content="Jingwei_Wang, 王靖伟" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/navigator.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<script src="javascript/message.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="javascript/Storage.js" type="text/javascript" charset="UTF-8"></script>	
+
+		<title>哆啦A梦 留言板</title>
+	</head>
+	<body>
+		<ul class="nav"> 
+			<li><a href="index.html">首页</a></li> 
+			<li><a href="story.html">故事内容</a></li> 
+			<li><a href="charactor.html">角色人物</a></li> 
+			<li><a href="originator.html">作者生平</a></li> 
+			<li><a href="prize.html">获奖记录</a></li> 
+			<li><a href="message.html">留言板</a></li> 
+		</ul><br /><br />
+		<div class="table_story" style="text-align:center">
+			<table class="table_story_table" border="0" cellpadding="3" cellspacing="0">
+			<br /><br />
+				<tr>
+					<td>
+						<p class="style_topic">
+							欢迎来到留言板
+						</p>
+						<div class="movieyeartop">
+							<a href="#0">我要留言</a>
+							<a href="#2">查看留言板</a>
+						</div>
+						<br /><br />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a name="0"></a>
+						<p>
+							<span class="subtitle">登录</span>
+							<br />
+						</p>
+						<div class="login" id="login">
+							<form onsubmit="return login();">
+								<input type="text" class="textfield" id="username" placeholder="用户名"/> 
+								<input type="password" class="textfield" id="password" placeholder="密码"/><br />
+								<input type="submit" value="登录"/>
+								<input type="reset" value="重置"/>
+								<input type="button" value="检测" onclick="jiance();"/><br />
+							</form>
+								Tips：用户名为8位数字或Y+8位数字，例如 Y20125041<br />
+								&emsp;&emsp;&emsp;密码为数字，大于等于5位小于等于10位<br /><br />
+							<br /><br />
+						</div>
+						<div class="login_ok" id="login_ok"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a name="1"></a>
+						<p>
+							<span class="subtitle">留言</span>
+							<br />
+						</p>
+						<div>
+							<form id="msg">
+								留言标题：<input class="title" id="title" name="title" type="text" size="60"/><br />
+								留言信息：<textarea id="content" name="content" cols="50" rows="8"></textarea><br /><br />
+								请问您喜欢《哆啦A梦》吗？<br />
+								<input name="like" type="radio" value="No" />不喜欢
+								<input name="like" type="radio" value="Yes" checked />喜欢<br /><br />
+								留言人：&emsp;<input id="user" name="user" type="text" disabled value="您尚未登录，不能留言" /><br />
+								<input id="addMsg" type="button" value="添加留言" onclick="addMsgFunc();" disabled />
+							</form>
+							<br /><br />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a name="2"></a>
+						<p>
+							<span class="subtitle">查看留言板</span>
+							<br />
+						</p>
+						<div>
+							<table class="show" style="width:750px;">
+								<tr>
+									<th>留言标题</th>
+									<th>留言内容</th>
+									<th>喜欢与否</th>
+									<th>留言人</th>
+									<th>留言时间</th>
+								</tr>
+								<tbody id="show"></tbody>
+							</table><br /><br />
+							<div class="center_button">
+								<input type="button" value="清除留言" onclick="clearMsg();"/>
+							</div>
+							<br /><br />
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<script>
+			window.onload = loadMsg();
+			var name = "";
+		</script>
+		<div class="back-up" id="back-up"><a href="#"><img src="./image/top.png"></a></div>
+		<footer>
+			<img src="./image/dora.jpg">
+			<p><small>建议分辨率1440*900</small></p>
+			<p><small>本站所有文字/图片素材取自网络，动画素材版权归所有者所有</small></p>
+			<p><small>Jingwei Wang&copy;1993-2015</small></p>
+		</footer>
+	</body>
+</html>
