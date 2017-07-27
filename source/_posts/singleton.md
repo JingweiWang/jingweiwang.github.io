@@ -4,8 +4,6 @@ date: 2017-07-26 20:00:00
 tags: DesignPatterns
 ---
 
-# Singleton 单例模式
-
 ## 定义
 
 - Ensure a class has only one instance, and peovide a global point of access it.

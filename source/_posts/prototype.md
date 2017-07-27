@@ -4,8 +4,6 @@ date: 2017-07-24 20:00:00
 tags: DesignPatterns
 ---
 
-# Prototype 原型模式
-
 ## 定义
 
 - Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
