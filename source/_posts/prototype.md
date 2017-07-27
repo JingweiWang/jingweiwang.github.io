@@ -13,7 +13,7 @@ tags: DesignPatterns
 
 ## 类图
 
-![](https://github.com/JingweiWang/DesignPatterns/tree/master/src/io/github/jingweiwang/DesignPatterns/prototype/Prototype.png)
+![](https://github.com/JingweiWang/DesignPatterns/blob/master/src/io/github/jingweiwang/DesignPatterns/prototype/Prototype.png?raw=true)
 
 ## 应用
 
