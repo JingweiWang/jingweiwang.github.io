@@ -13,6 +13,10 @@ tags: DesignPatterns
 
 ![](https://github.com/JingweiWang/DesignPatterns/blob/master/src/io/github/jingweiwang/DesignPatterns/prototype/Prototype.png?raw=true)
 
+## 代码地址
+
+[GitHub](https://github.com/JingweiWang/DesignPatterns/tree/master/src/io/github/jingweiwang/DesignPatterns/prototype)
+
 ## 应用
 
 ### 优点 

@@ -9,6 +9,14 @@ tags: DesignPatterns
 - Ensure a class has only one instance, and peovide a global point of access it.
 - 确保某一个类只有一个实例, 而且自行实例化并向整个系统提供这个实例。
 
+## 类图
+
+![](https://github.com/JingweiWang/DesignPatterns/blob/master/src/io/github/jingweiwang/DesignPatterns/singleton/Singleton.png?raw=true)
+
+## 代码地址
+
+[GitHub](https://github.com/JingweiWang/DesignPatterns/tree/master/src/io/github/jingweiwang/DesignPatterns/singleton)
+
 ## 实现
 
 1. [饿汉式](https://github.com/JingweiWang/DesignPatterns/tree/master/src/io/github/jingweiwang/DesignPatterns/singleton/HungrySingleton.java)
