@@ -5,7 +5,7 @@
 site_title: Jingwei's Blog
 site_description: 专注于 Android 开发. Android 创造一切!
 # ---Optional ---
-site_avatar: /images/avatar.jpg
+site_avatar: /images/avatar-small.png
 artical_license_statement: 本文由 http://jingweiwang.pub/ 原创编写，转载请尽量保留版权网址，感谢您的理解与分享!
 # ---End Optional ---
 menu:
