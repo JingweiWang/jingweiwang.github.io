@@ -74,6 +74,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: twentyfifteen
 
+# Lazyload
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: # eg. ./images/loading.png
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
