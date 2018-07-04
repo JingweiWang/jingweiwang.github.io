@@ -1,5 +1,5 @@
 ---
-title: Template Method 模版方式模式
+title: Template Method 模版方法模式
 date: 2017-08-01 14:36:17
 tags: DesignPatterns
 ---
