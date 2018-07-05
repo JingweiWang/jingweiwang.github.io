@@ -83,6 +83,6 @@ lazyload:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:JingweiWang/jingweiwang.github.io.git
-  branch: master
+  type:  git
+  repo:  git@github.com:JingweiWang/jingweiwang.github.io.git
+  branch:  master
