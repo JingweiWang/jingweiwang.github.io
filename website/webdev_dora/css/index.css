@@ -1,0 +1,163 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	color: #000000;
+	background: #FFF;
+	text-align: center;
+	margin: 0; 
+	padding: 0;
+	font-style: normal;
+	font-family: 宋体,Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.dora_moon {
+	position: absolute;
+	z-index: 10;
+	top: -70px;
+}
+
+.daxiong {
+	position: absolute;
+	z-index: 11;
+	top: 70px;
+	left: 320px;
+}
+
+.jingxiang {
+	position: absolute;
+	z-index: 11;
+	top: 70px;
+	left: 500px;
+}
+
+.table_story_table {
+	width: 60%;
+	margin: auto;
+}
+
+.movieyeartop {
+	text-align: center;
+}
+.movieyeartop a {
+    background: #00a0e9;
+    color: #fff;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+}
+.movieyeartop a:hover {
+	background: #2BB0EE;
+} 
+.style_topic{
+    background: rgba(0, 0, 0, 0) url(../image/product_tit.jpg) no-repeat scroll 0 0;
+    color: #07d;
+    font-size: 24px;
+    height: 75px;
+    padding-left: 80px;
+}
+.subtitle {
+    border-left: 20px solid orange;
+    color: orange;
+    font-family: "微软雅黑";
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.numbersub {
+    color: #666;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+td.img{
+	text-align: center;
+	height: 350px;
+	width: 350px;
+	margin: auto;
+}
+div.login, div.login_ok {
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+.center_button{
+	text-align: center;
+	margin: auto;
+}
+
+.back-up {
+	height: 50px; 
+	width: 50px; 
+	position: fixed;
+	z-index: 1000;
+	cursor: pointer; 
+	right: 10px; 
+	bottom: 100px;
+}
+
+td p.name {
+	text-align: center;
+	color: #00a0e9;
+	font-family: "微软雅黑";
+	font-size: 25px;
+}
+td p.person {
+	text-align: justify;
+	font-family: "宋体";
+	font-size: 14px;
+}
+
+input.textfield{
+	border-top: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background-color: #f5f5f5;
+	line-height: 18px;
+	width: 240px;
+	height: 33px;
+}
+input.title{
+	border-top: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	line-height: 18px;
+	width: 500px;
+	height: 33px;
+}
+textarea{
+	border-top: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	line-height: 18px;
+	width: 500px;
+	height: 150px;
+}
+input:hover, input:focus, textarea:hover, textarea:focus{
+	border-color: #00a0e9;
+}
+
+table.show {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table.show td, table.show th{
+	border: 1px solid #888;
+	padding: 4px;
+	text-align: center;
+}
